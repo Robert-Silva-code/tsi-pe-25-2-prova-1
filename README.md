@@ -159,11 +159,11 @@ Saída:
 
 ## Questão 4
 
-Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas. Obs.: use variáveis de ponto flutuante de dupla precisão.
+Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas. 
 
 ### Entrada
 
-Diversos valores reais, um por linha, simbolizando as notas finais de cada aluno.
+Valores reais, um por linha, simbolizando as notas finais de cada aluno.
 
 ### Saída
 
@@ -195,3 +195,92 @@ Um número real, com duas casas decimais, simbolizando a média das notas da sal
 #### Saída
 
 7.33
+
+
+## Questão 5
+
+Escreva um programa que solicite ao usuário para digitar seu nome em letras
+minúsculas e, em seguida, imprima o nome com a primeira letra em maiúscula. Você
+não deve usar o método str.capitalize(). Preposições não devem ser iniadas com maiúsculo
+Exemplo:
+    - romulo junior - Romulo Junior
+    - jose da silva - Jose da Silva
+
+
+## Questao 6
+
+Verificação de Triângulo: Peça ao usuário o comprimento de três lados em uma única entrada
+e verifique se eles podem formar um triângulo.
+Se sim, determine se é um triângulo equilátero, isósceles ou escaleno.
+Exemplo:
+    333: equilátero
+    322: isósceles
+    234: escaleno
+
+## Questao 7
+
+Faça um programa que calcula a quantidade de divisores de um número (incluindo 1 e o próprio número) que são divisíveis por 3.
+
+[Referência](https://www.thehuxley.com/problem/2842?quizId=4323)
+
+### Formato de entrada
+
+O usuário deve digitar um inteiro N.
+
+### Formato de saída
+
+O programa deve exibir um inteiro R, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum, imprima "O numero nao possui divisores multiplos de 3" sem as aspas.
+
+O programa deve imprimir
+
+Quantidade de divisores divisiveis por 3: n / O numero nao possui divisores multiplos de 3
+
+### Exemplo 1:
+
+Entrada:
+
+- 7
+
+Saída:
+
+- O número não possui divisores multiplos de 3
+
+### Exemplo 2:
+
+Entrada:
+
+- 3
+
+Saída:
+
+- Quantidade de divisores divisiveis por 3: 1
+
+### Exemplo 3:
+
+Entrada:
+
+- 555
+
+Saída:
+
+- Quantidade de divisores divisiveis por 3: 4
+
+### Exemplo 4:
+
+Entrada:
+
+- 3144
+
+Saída:
+
+- Quantidade de divisores divisiveis por 3: 8
+
+### Exemplo 5:
+
+Entrada:
+
+- 17640
+
+Saída:
+
+- Quantidade de divisores divisiveis por 3: 48

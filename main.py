@@ -17,8 +17,18 @@ def q3():
 def q4():
     pass
 
+def q5():
+    pass
+
+
+def q6():
+    pass
+
+def q7():
+    pass
+
 def main():
-    q_exemplo()
+    q_exemplo()()
 
 if __name__ == "__main__":
     main()
